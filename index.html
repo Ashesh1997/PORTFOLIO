@@ -151,14 +151,43 @@
     </div>
   </div> -->
 
+
+  <!-- <script>
+  const startYear = 2017; // 👈 change this to your career start year
+  const currentYear = new Date().getFullYear();
+  const experienceYears = currentYear - startYear;
+
+  document.getElementById("experienceYears").textContent = experienceYears;
+</script> -->
+
+
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
+        
+
+<div class="section-title">
+  <h2>About</h2>
+  <p>
+    I'm an innovative and deadline-driven designer with 
+    <strong><span id="experienceYears">8</span>+ years</strong> of experience in
+    Graphic Design, Motion Graphics, UI/UX Design, Video Editing, Presentation Design,
+    Social Media Design, and Web Development. I create user-centered marketing material
+    that engages and informs audiences. With a focus on delivering results, I stay
+    up-to-date with the latest design trends and technologies, and I believe in
+    collaboration and communication to ensure timely delivery of projects.
+    I'm passionate about creating compelling marketing material that takes your project
+    to the next level.
+  </p>
+</div>
+
+
+
+        <!-- <div class="section-title">
           <h2>About</h2>
-          <p>I'm an innovative and deadline-driven designer with 5+ years of experience in Graphic Design, Motion Graphics, UI/UX Design, Video Editing, Presentation Design, Social Media Design, and Web Development. I create user-centered marketing material that engages and informs audiences. With a focus on delivering results, I stay up-to-date with the latest design trends and technologies, and I believe in collaboration and communication to ensure timely delivery of projects. I'm passionate about creating compelling marketing material that takes your project to the next level.</p>
-        </div>
+          <p>I'm an innovative and deadline-driven designer with 8+ years of experience in Graphic Design, Motion Graphics, UI/UX Design, Video Editing, Presentation Design, Social Media Design, and Web Development. I create user-centered marketing material that engages and informs audiences. With a focus on delivering results, I stay up-to-date with the latest design trends and technologies, and I believe in collaboration and communication to ensure timely delivery of projects. I'm passionate about creating compelling marketing material that takes your project to the next level.</p>
+        </div> -->
 
         <div class="row">
           <div class="col-lg-4">
@@ -717,6 +746,63 @@
                 <p>Concept Design</p>
                 <div class="portfolio-links">
                   <a href="assets/img/iPhone X, XS, 11 Pro – 3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Find a Course"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cheery2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cheerylove Candel</h4>
+                <p>Photoshop</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/cheery2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cheerylove Candel"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/classic2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sandelwood Candel</h4>
+                <p>Photoshop</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/classic2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sandelwood Candel"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Sunflower2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sunflower Candel</h4>
+                <p>Photoshop</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/Sunflower2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Sunflower Candel"><i class="bx bx-plus"></i></a>
+                  <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/Xmas_tree_2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Christmas Tree Candel</h4>
+                <p>Photoshop</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/Xmas_tree_2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Christmas Tree Candel"><i class="bx bx-plus"></i></a>
                   <!-- <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
                 </div>
               </div>
@@ -2173,6 +2259,22 @@
 <!-- </section> -->
 </div>
 </div>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const startYear = 2017; // 👈 YOUR career start year
+    const currentYear = new Date().getFullYear();
+    const experienceYears = currentYear - startYear;
+
+    const el = document.getElementById("experienceYears");
+    if (el) {
+      el.textContent = experienceYears;
+    }
+  });
+</script>
+
 
 
 </body>
